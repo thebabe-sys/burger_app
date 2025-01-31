@@ -20,7 +20,7 @@ module.exports = {
         skyBlueHover: '#6CA4BC',
         lemonYellow: '#FEF250',
         secondaryColor: '#ffCC00',
-        paragraphColor: 'c0c0c0',
+        paragraphColor: '#c0c0c0',
         whiteColor: '#fff',
         blackColor: '#000',
         greenColor: '#007936',
