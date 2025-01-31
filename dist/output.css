@@ -1061,7 +1061,8 @@ section{
 }
 
 .text-paragraphColor{
-  color: c0c0c0;
+  --tw-text-opacity: 1;
+  color: rgb(192 192 192 / var(--tw-text-opacity));
 }
 
 .text-secondaryColor{
@@ -1133,7 +1134,8 @@ section{
 .paragraph{
   font-size: 0.75rem;
   line-height: 1.25rem;
-  color: c0c0c0;
+  --tw-text-opacity: 1;
+  color: rgb(192 192 192 / var(--tw-text-opacity));
 }
 
 .tabs__wrap ul li:hover,
