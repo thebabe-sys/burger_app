@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
-  "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css && cp -r ./src/img ./dist/",
-  "watch": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
-},
-
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css && npx cpx './dist/img/**/*' ./dist/img",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cpx": "^1.5.0",
     "tailwindcss": "^3.4.3"
   }
 }
